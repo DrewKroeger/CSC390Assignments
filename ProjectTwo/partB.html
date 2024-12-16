@@ -1,0 +1,49 @@
+<!--DREW KROEGER- CSC390- PROJECT TWO- 
+This is one of four html pages for project two-->
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale = 1.0">
+        <link href = "style.css" type ="text/css" rel = "stylesheet">
+        <title>Project Two Calculator</title>
+        <script src="partB.js"></script>
+    </head>
+    <body>
+        <div class="topDiv">
+            <a class="returnLink" href = "index.html"> Return to Index Page</a>
+            <h1>This is Part B- Calculator</h1>
+        </div>
+
+        <div class= "partBFlexboxTwo">
+            <p>
+                First Value:
+                <input type="number" id="firstValue"/>
+            </p>
+
+            <p>
+                Second Value:
+                <input type="number" id="secondValue"/>
+            </p>
+        </div>
+        <div class="partBFlexbox">
+            <button class= "classTwo" onclick ="addition()">Addition(+)</button>
+            <button class= "classTwo" onclick ="subtraction()">Subtraction(-)</button>
+            <button class= "classTwo" onclick ="multiplication()">Multiplication(* or x)</button>
+            <button class= "classTwo" onclick ="division()">Division(/)</button>
+            <button class= "classTwo" onclick ="exponent()">Exponent(^)</button>
+            <button class= "classTwo" onclick ="squareRoot()">squareRoot(√)</button>
+        </div>
+
+        <p id="result">
+            The result is: 
+        </p>
+
+        <p id="history">History: </p>
+        <ol>
+            
+        </ol>
+    </body>
+</html>
