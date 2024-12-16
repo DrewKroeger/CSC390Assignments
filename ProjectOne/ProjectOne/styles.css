@@ -1,0 +1,88 @@
+/*Drew Kroeger- CSC390- WEB PROGRAMMING, PROJECT 1, MIKE EHRMANTRAUT FANPAGE*/
+body{
+    background-color:#093009 ;
+    color: #FFFFFF;
+    font:bundy;
+    font-size: medium;
+    text-align: center;
+}
+
+h1{
+    font:arial;
+    font-size:xxx-large;
+}
+
+h2{
+    font:bundy;
+    font-size:x-large;
+}
+
+p{
+    font:bundy;
+    font-size: medium;
+}
+
+
+
+table{ 
+    border-collapse: collapse;
+    border: 2pt solid blanchedalmond;
+}
+caption{
+    font-size: x-large;
+}
+th{
+    border: 1px solid blanchedalmond;
+    text-align: center;
+}
+
+td{
+    border: 1px solid blanchedalmond;
+    text-align: left;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffe882;
+    background-color: #093009; 
+    border: 2px solid #ffe882; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, border-color 0.3s; 
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #ff473d; 
+    border-color: #fdfdfd; 
+}
+
+.button:active {
+    background-color: #fdfdfd; 
+    border-color: #000000; 
+}
+
+img{
+    max-width: 50%;
+}
+div{
+    text-align: center;
+}
+
+ul{
+    display:inline-block;
+    text-align: center;
+}
+
+ol{
+    display: inline-block;
+}
+
+iframe{
+    margin: 10px;
+}
+
+
