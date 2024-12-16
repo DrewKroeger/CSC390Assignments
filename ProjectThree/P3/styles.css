@@ -1,0 +1,170 @@
+/*This is the styles page for Drew Kroegers CSC390 Project three*/
+body{
+    background-color:#588c7e;
+    color:#f2ae72;
+    padding-top:20px;
+}
+
+h1{
+    color:#f2e394;
+    text-align: center;
+}
+
+/*WE START WITH LOGIN PAGE CSS*/
+
+#loginPage{
+    text-align: center;
+    font-size: larger;
+}
+#loginDiv{
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+#submitButton{
+    color:#d96459;
+    font-size:large;
+    padding: 15px;
+    background-color:#454140 ;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+#submitButton:hover{
+    background-color: #656160;
+    color:#d96459;
+    transition: background-color 0.3s;
+}
+#submitButton:active{
+    background-color: antiquewhite;
+    color: #d96459;
+    transition: background-color 0.3s;
+}
+
+
+/*ONTO THE INDEX PAGE*/
+
+#indexPage{
+    text-align:center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.indexButtons{
+    text-decoration: none;
+    color:#d96459;
+    text-align: center;
+}
+
+.indexButtons a{
+    display:inline-block;
+    width:fit-content;
+    text-decoration: none;
+    color:#d96459;
+    padding: 20px;
+    font-size:large;
+    background-color: #f2e394;
+    margin:20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.indexButtons a:hover{
+    background-color: #bb935b;
+    color:#d96459;
+    transition: background-color 0.3s;
+
+}
+
+.indexButtons a:active{
+    background-color: #ffffff;
+    color:#d96459;
+    transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+/*NOW THAT THE UNIVERSAL BACK BUTTON IS DONE LETS GET INTO THE INDIVIDUAL PAGES*/
+
+.repeaterPage{
+    text-align:center;
+    font-size:large;
+}
+
+#datePage {
+    text-align:center;
+    font-size:xx-large;
+}
+#datePage h1{
+    font-size:xx-large;
+}
+
+#rpsDiv{
+    text-align: center;
+}
+
+
+#playrpsPage{
+    text-align: center;
+    font-size: large;
+
+}
+
+#logoutDiv{
+    text-align:center;
+    font-size: x-large;
+}
+
+/*NOW THAT THE INDEX PAGE IS DONE, LETS DO THE BUTTONS*/
+.returnToIndex {
+    text-align: left;
+    display:block;
+    width:fit-content;
+    text-decoration: none;
+    color:#e02919;
+    padding: 10px;
+    font-size:large;
+    background-color: #f2c194;
+    margin:10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.returnToIndex:hover{
+    color:#e02919;
+    background-color: #bb935b;
+    transition: background-color 0.3s;
+}
+
+.returnToIndex:active{
+    background-color: #ffffff;
+    color:#d96459;
+    transition: background-color 0.3s;
+}
+
+.rpsButton{
+    text-align: center;
+    color:#e08619;
+    padding:15px;
+    font-size: large;
+    background-color: #656160;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.rpsButton:hover{
+    color:#e28e27;
+    background-color: #4b4645;
+    transition: background-color 0.3s;
+}
+
+.rpsButton:active{
+    color:#000000;
+    background-color: #ffeaea;
+    transition: background-color 0.3s;
+}
