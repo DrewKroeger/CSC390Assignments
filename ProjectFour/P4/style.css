@@ -1,0 +1,131 @@
+/*DREW KROEGER/OWEN MANLEY - CSC390 - PROJECT FOUR CSS*/
+#reg-background{
+    background-image: url("images/christmas-tree.jpg");
+    background-color: rgb(150, 1, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-right: 40%;
+    padding-left: 40%;
+    
+}
+
+#reg-container{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+    flex-direction: column;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0%;
+}
+
+@media (max-width: 640px) {
+    #reg-container {
+        padding: 15px; 
+    }
+
+    #reg-background {
+        background-size: cover; 
+    }
+}
+
+#backlog-background{
+    background-color: green;
+    border: 30px;
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+    color: white;
+}
+
+#backlog-background a:visited {
+    text-decoration: none; /* Removes underline for visited links */
+    color: white; /* Sets the color of visited links to white */
+}
+
+#backlog-background a:link {
+    text-decoration: none; /* Removes underline for unvisited links */
+    color: white; /* Ensures unvisited links are white */
+}
+
+#backlog-background a:hover {
+    background-color: red;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+#logout-content{
+    color: aliceblue;
+}
+
+#logout-content h1{
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    margin: 0; 
+}
+
+#logout-content a{
+    position: absolute; 
+    top: 0%;
+    left: 25%; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    margin: 0; 
+
+}
+
+#logout-content button{
+    font-size: 500px;
+    padding: 5px;
+    margin-top: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#logout-content a:visited {
+    text-decoration: none; /* Removes underline for visited links */
+    color: white; /* Sets the color of visited links to white */
+}
+
+#logout-content a:link {
+    text-decoration: none; 
+    color: white; 
+}
+
+#logout-content a:hover {
+    background-color: red;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
+
+#reg-container a:visited{
+    text-decoration: none; 
+    color: white;
+}
+
+#reg-container a:link{
+    text-decoration: none; 
+    color: white;
+}
+
+#reg-container a:hover{
+    background-color: red;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+}
